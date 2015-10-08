@@ -171,6 +171,21 @@ Abre [http://localhost:3000/ideas](http://localhost:3000/ideas) en tu navegador.
 
 Presione `CTRL-C` en la terminal para salir del servidor.
 
+**Si les sale un error que menciona execJS**: Esto sucede en Windows 7
+Abran el archivo `app/views/layouts/application.html.erb` y en las líneas:
+
+{% highlight erb %}
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+{% endhighlight %}
+
+Reemplace 'application' por 'default':
+
+{% highlight erb %}
+<%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track' => true %>
+<%= javascript_include_tag 'default', 'data-turbolinks-track' => true %>
+{% endhighlight %}
+
 ## *3.*Diseño
 
 **Coach:** Hable acerca de la relación entre HTML y Rails. ¿Qué parte de las vistas es HTML y qué es Ruby Embebido (ERB)? ¿Qué es MVC y cómo se relaciona con todo esto? (Modelos y controladores son responsables para la generacion de las vistas con HTML.)
@@ -207,7 +222,7 @@ por
 Tambíen vamos agregar un barra de navegación y un pie de página en nuestro layout. En el mismo archivo, debajo de `<body>` agregar
 
 {% highlight html %}
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
