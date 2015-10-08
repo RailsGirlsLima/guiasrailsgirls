@@ -42,7 +42,7 @@ Primero, abrimos una terminal:
 * Mac OS X: Abre Spotlight, digite *Terminal* y click en la applicación *Terminal*.
 * Windows: Click en Inicio y busca *Comando Prompt*, luego click *Comando Prompt con Ruby on Rails*.
 * Linux (Ubuntu): Buscar por *Terminal* en el dash y click *Terminal*.
-* Servicio en la nube (por ejemplo: Codepicnic): Ingresa a tu cuenta, abre tu consola, en la vista de código (lee [la guía de instalación](/install#using-a-cloud-service) para más detalle). 
+* Servicio en la nube (por ejemplo: Codepicnic): Ingresa a tu cuenta, abre tu consola, en la vista de código (lee [la guía de instalación](/install#usando-la-nube) para más detalle). 
 
 Luego, digite estos comandos en el terminal:
 
@@ -128,7 +128,7 @@ rails server
   </div>
 </div>
 
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador. Si estás usando un servicio en la nube (por ejemplo Codepicnic), utiliza su funcionalidad de preview (puedes ver [la guía de instalación](/install#using-a-cloud-service) para más detalle). 
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador. Si estás usando un servicio en la nube (por ejemplo Codepicnic), utiliza su funcionalidad de preview (puedes ver [la guía de instalación](/install#using-a-cloud-service) para más detalle).
 
 En el navegador o en la funcionalidad de vista previa, debería verse una página "Welcome aboard", lo que significa que la generación de tu nueva aplicación esta funcionando correctamente.
 
@@ -322,7 +322,7 @@ a
 
 A veces, podrías obtener el error *TypeError: can't cast ActionDispatch::Http::UploadedFile to string*.
 
-Si esto sucede, en el archivo 
+Si esto sucede, en el archivo
 
 `app/views/ideas/_form.html.erb` cambia la línea
 
