@@ -116,7 +116,7 @@ Listo. Ahora ya deberías tener instalado Ruby on Rails. ¡Felicidades!
 
 ## Instalacion en Windows
 
-Descarga [RailsInstaller](http://rubyforge.org/frs/download.php/76855/railsinstaller-2.2.0.exe) y ejecútelo. Siga las instrucciones usando las opciones por defecto.
+Descarga [RailsInstaller](https://s3.amazonaws.com/railsinstaller/Windows/railsinstaller-3.0.0.exe) y ejecútelo. Siga las instrucciones usando las opciones por defecto.
 
 La instalación de Git y SSH-keys son requeridos si usted quiere [poner su aplicación en linea con Heroku](/heroku).
 
