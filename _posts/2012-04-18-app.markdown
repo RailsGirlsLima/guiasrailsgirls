@@ -247,13 +247,13 @@ y antes de `</body>` agregar
 {% highlight html %}
 <footer>
   <div class="container">
-    Rails Girls 2015
+    Rails Girls 2016
   </div>
 </footer>
 <script src="//railsgirls.com/assets/bootstrap.js"></script>
 {% endhighlight %}
 
-Ahora además vamos a cambiar el stilo de la tabla ideas. Abre `app/assets/stylesheets/application.css` y al final agregar
+Ahora además vamos a cambiar el estilo de la tabla ideas. Abre `app/assets/stylesheets/application.css` y al final agregar
 
 {% highlight css %}
 body { padding-top: 100px; }
